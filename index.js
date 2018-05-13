@@ -3,17 +3,10 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
-const passport = require('passport');
-const recipeRouter = require('./routers/recipe-router');
-const userRouter = require('./routers/user-router');
-const authRouter = require('./routers/authentication');
-const {jwtStrategy, localStrategy} = require('./strategies/auth-strategies');
 
 
-
-const { PORT, CLIENT_ORIGIN, JWT_SECRET, JWT_EXPIRY } = require('./config');
+const { PORT, CLIENT_ORIGIN} = require('./config');
 const { dbConnect } = require('./db-mongoose');
-// const {dbConnect} = require('./db-knex');
 const bodyParser = require('body-parser');
 
 const app = express();
@@ -32,12 +25,6 @@ app.use(
 
 app.use(bodyParser.json());
 
-app.use('/api', recipeRouter);
-app.use('/api', userRouter);
-app.use('/api', authRouter);
-
-passport.use(localStrategy);
-passport.use(jwtStrategy);
 
 app.use(function (req, res, next) {
   const err = new Error('Not Found');

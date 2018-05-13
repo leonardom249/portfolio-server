@@ -1,6 +1,0 @@
-[
-{ "_id" : "5ae2191ed0656a0cb89a5837", "title" : "Uncle Bobs Chili", "ingredients" : "1 can tomatoes\n2 cloves garlic\n3 lbs beef\n3 tbsp chili powder", "recipe" : "Step 1. Crush garlic\nStep 2. Saute garlic until golden\nStep 3. Heat up beef", "userId" : "5adf6cb2972659151c8a59a9"},
-{ "_id" : "5ae21940d0656a0cb89a5838", "title" : "Test Recipe", "ingredients" : "Test", "recipe" : "Test\nTest\n\n\nTest", "userId" : "5adf705e71d95d145cbc80b0"},
-{ "_id" : "5ae21b0cd0656a0cb89a583b", "title" : "test", "ingredients" : "test", "recipe" : "test", "userId" : "5adf6e97972659151c8a59aa"},
-{ "_id" : "5ae21b12d0656a0cb89a583c", "title" : "test", "ingredients" : "test", "recipe" : "testttt", "userId" : "5adf6cb2972659151c8a59a9"}
-]

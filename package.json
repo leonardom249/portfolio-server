@@ -1,7 +1,7 @@
 {
-  "name": "ingredient-inheritance-back-end-made-with-thinkful-backend-template",
+  "name": "Portfolio-Server",
   "version": "1.0.0",
-  "description": "Template for an Express backend, added on to by Megan Leonardo",
+  "description": "Portfolio backend by/for Megan Leonardo",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -10,20 +10,15 @@
     "heroku": "node index.js",
     "travis": "npm run mocha"
   },
-  "author": "Joe Turner <jturner@thinkful.com>, additions by Megan Leonardo",
+  "author": "Megan Leonardo",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^2.0.1",
-    "bcryptjs": "^2.4.3",
     "cors": "^2.8.4",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
-    "jsonwebtoken": "^8.2.1",
-    "knex": "^0.14.4",
     "mongoose": "^5.0.6",
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "pg": "^7.4.1"
   },
